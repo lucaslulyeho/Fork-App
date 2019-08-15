@@ -1,0 +1,862 @@
+*, h1 {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+
+}
+#top {
+    background-color: #fff;
+    height: 105px;
+    padding: 0px 105px;
+    border-bottom: 1px solid black;
+}
+.top-logo {
+    float: left;
+    width: 476px;
+    margin-top: 42px;
+}
+#top h2 {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    
+    color: #333333;
+    
+}
+#top h2 span {
+    color: #8d81ac;
+}
+#top-navigation {
+    color: #635c73;
+    width: 505px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 47px;
+}
+#top li {
+    display: inline;
+    padding-right: 35px;
+    margin: 0px;
+}
+
+#last-nav {
+    padding-right: 0px !important;
+}
+#top-button {
+    width: 190px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    height: 39px;
+    margin-top: 33px;
+    margin-left: 28px;
+    padding-top: 10px;
+    color: #fff;
+    background-color: #8d81ac;
+    border-radius: 20px;
+}
+
+#hero {
+    padding-bottom: 70px;
+}
+#base {
+    background-color: #010005;
+    text-align: center;
+    height: 800px;
+    /*background-image: -moz-linear-gradient(#010005, #280a0c);
+    //background-image: linear-gradient(#010005, #120004)
+    */
+    background-image: url("../img/forkio-Recovered.jpg");
+    /* background-image: url("../img/anither.jpeg"); */
+
+}
+#base h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 82px;
+    padding-top: 100px;
+}
+#base h2 {
+    color: #73698d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+}
+#base h3 {
+    color: #34383f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.hero-button {
+    text-align: center;
+}
+.download-btn {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: capitalize;
+    background-color: #8d81ac;
+    width: 390px;
+    position: relative;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 15px;
+    top: -30px;
+    margin: 0 auto;
+
+}
+.hero-button>p{
+    position: relative;
+    top: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #dbdde0;
+
+}
+
+#rev-editor {
+    text-align: center;
+    padding: 0px 250px;
+}
+#rev-editor h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #635c73;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+#rev-editor .rev-intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #6d6d6d;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+/* .rev-btn span {
+    background-color: #ffffff;
+    border-left: 1px solid #d5d5d5;
+}
+.rev-btn li {
+    display: inline-block;
+    margin: 0px 5px;
+    border: 1px solid #d5d5d5;
+    background-color: #f2f2f2;
+    height: 25px;
+    width: 100px;
+} */
+
+.github-btn {
+    /* border: 1px solid #d5d5d5; */
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700 ;
+    font-size: 10px ;
+    padding: 0px;
+    overflow: auto;
+    width: 35%;
+    margin: 0 auto;
+}
+.rev-btn{
+    color: #6d6d6d ;
+    /* display: inline-block; */
+    background-color: #f2f2f2;
+    border: 1px solid #d5d5d5;
+    height: 25px;
+    float: left;
+    border-radius: 4px 0px 0px 4px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.git-numbers {
+    /* background-color: #fff; */
+    border: 1px solid #d5d5d5;
+    display: inline-block;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 0px 4px 4px 0px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/* 
+
+HERO SECTION IS OVER
+
+ */
+ /* START OF FEATURES SECTION */
+
+ #features {
+     background-color: #f4f4f4;
+     padding-left: 100px;
+     padding-top: 85px;
+     overflow: auto;
+     height: 710px;
+     overflow: visible;
+
+ }
+ .col-features {
+     /* border: 1px solid yellow; */
+     width: 50%;
+     float: left;
+ }
+ .feature {
+     height: 110px;
+     margin-bottom: 35px;
+
+ }
+ .feature-icon {
+     display: inline-block;
+     width: 125px;
+     height: 110px;
+
+}
+.icon1 {
+    background-image: url("../img/features/icon1" );
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
+.icon2 {
+    background-image: url("../img/features/icon2.png" );
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
+.icon3 {
+    background-image: url("../img/features/icon3.png" );
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
+.icon4 {
+    background-image: url("../img/features/icon4.png" );
+    background-repeat: no-repeat;
+    background-position: top center ;
+}
+ .feature-descr {
+     display: inline-block;;
+     width: 395px;
+     height: 110px;
+     position: absolute;
+ }
+ .feature-descr h3 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400 ;
+    font-size: 16px ;
+    color: #323232;
+    margin-bottom: 18px;
+ }
+ .feature-descr p {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400 ;
+    font-size: 14px ;
+    color: #8d969e;
+ }
+ .col-features h2{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700 ;
+    font-size: 48px ;
+    color: #8d81ac;
+    margin-bottom: 50px;
+ }
+ .editor {
+     box-shadow: -20px 20px 10px #e4e5e5;
+ }
+ /* END OF FEATURES SECTION */
+
+ /* START OF SOCIALS SECTION */
+#social {
+    text-align: center;
+    margin-top: 90px;
+}
+.author {
+    width: 300px;
+    margin: 0 auto;    
+    overflow: auto;
+}
+.author-img {
+    background-image: url("../img/author/author.jpg");
+    background-repeat: no-repeat;
+    background-position: center 80%;;
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    /* margin: 0 auto; */
+    float: left;
+}
+.author-socials {
+    width: 190px;
+    float: right;
+    text-align: left;
+}
+.author-socials h2{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700 ;
+    font-size: 23px ;
+    color: #635c73;
+}
+.author-socials h3{
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400 ;
+    font-size: 16px ;
+    color: #8d81ac;
+}
+
+.tweet {
+    height: 145px;
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+    
+
+}
+.scroll-tweets {
+
+}
+.left-arrow {
+    background-image: url("../img/social/arrowL.png");
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 85px;
+    float: left;
+
+}
+.tweet-content {
+    float: left;
+    width: 770px;
+    height: 145px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.tweet-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+
+}
+.tweet-content p span{
+    color: #ada5c2;
+}
+
+.tweet-content .tweet-timestamp {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #848e97;
+    margin-top: 20px;
+}
+.right-arrow {
+    background-image: url("../img/social/arrowR.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 90px;
+    width: 85px;
+    float: left;    
+}
+
+/* social buttons */
+.social-buttons {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.social-btn-grp {
+    width: 240px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.social-btn {
+    width: 240px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.social-btn>p {
+    padding-left: 83px;
+    padding-top: 11px;
+    
+}
+.github {
+    background-color: #f3f3f3;
+    color: #000;
+}
+.twtr {
+
+    background-color: #26a6d1;
+    color: #fff;
+}
+.fb {
+    background-color: #3b5998;
+    color: #fff;
+}
+.social-icon {
+    height: 50px;
+    width: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.git-icon {
+    background-image: url("../img/social/github.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.twtr-icon {
+    background-image: url("../img/social/twtr.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.fb-icon {
+    background-image: url("../img/social/fb.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.social-btn-grp>p{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a1a8af;
+    display: inline;
+}
+ /* END OF FEATURES SECTION */
+
+ /* START OF TESTIMONIALS SECTION */
+ #testimonials {
+     height: 765px;
+     background-color: #4b3b4e;
+ }
+ #testimonials h2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 90px;
+ }
+ .testimonial-row {
+     margin: 0 auto;
+     /* overflow: auto; */
+     width: 1110px;
+ }
+ .testimony {
+     width: 350px;
+     display: inline-block;
+     /* float: left; */
+     text-align: center;
+     margin-bottom: 100px;
+     
+ }
+ .middle-testimony {
+     margin: 0px 25px;
+ }
+ .testimony-icon {
+     height: 65px;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .logo1 {
+     background-image: url("../img/testimonials/test1.png");
+ }
+ .logo2 {
+    background-image: url("../img/testimonials/test2.png");
+}
+.logo3 {
+    background-image: url("../img/testimonials/test3.png");
+}
+.logo4 {
+    background-image: url("../img/testimonials/test4.png");
+}
+.logo5 {
+    background-image: url("../img/testimonials/test5.png");
+}
+.logo6 {
+    background-image: url("../img/testimonials/test6.png");
+}
+.testimony-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.test-sep {
+    width: 778px;
+    margin: 0 auto;
+    border: 1px solid #675967;
+}
+/* END OF TESTIMONIALS SECTION */
+
+/* START OF PRICING SECTION */
+#pricing {
+    height: 900px;
+    background-image: url("../img/pricing/pricing-background.jpg");
+    background-repeat: no-repeat;
+    background-color: #4b3b4e;
+    background-size: 100%;
+    text-align: center;
+
+}
+#pricing h2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    padding-top: 25px;
+}
+.packages {
+    width: 1110px;
+    margin: 0 auto;
+    height: 560px;
+    margin-top: 70px;
+}
+
+.package {
+    width: 255px;
+    height: 460px;
+    float: left;   
+    margin-top: 50px; 
+}
+.package h3 {
+    height: 100px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 35px;
+    background-color: #685b6a;
+    /* opacity: 0.1; */
+}
+
+.pkg-body {
+    background-color: #5f5161;
+    height: 360px; 
+    /* opacity: 0.5 */
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 60.18px;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.per-month {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.lisence {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.purchase {
+    height: 42px;
+    width: 160px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding-top: 10px;
+    background-color: #7e6d7d;
+    position: relative;
+    top: -70px;
+}
+.sep {
+    width: 60px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #8d81ac;
+    margin-bottom: 25px;
+}
+.student {
+    margin-right: 15px;
+}
+/* .enterprise {
+    margin-left: 15px; 
+} */
+
+/* styles for currently selected package */
+.current-pkg {
+    height: 560px;
+    margin: 0 15px;
+    width: 300px;
+
+}
+.current-pkg h3 {
+    background-color: #392d3d;
+    height: 110px;
+    padding-top: 40px;
+}
+.current-pkg .pkg-body {
+    background-color: #413344;
+    height: 450px; 
+}
+.current-pkg .price {
+    font-size: 82px;
+    padding-top: 10px;
+}
+.current-pkg .per-month {
+    padding-bottom: 40px;
+}
+.current-pkg .sep {
+    margin-bottom: 35px;
+}
+.current-pkg .lisence {
+    margin-bottom: 20px;
+}
+.current-pkg .purchase {
+    height: 50px;
+    width: 190px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-top: 16px;
+    top: -95px;
+}
+
+/* pricing footer */
+.pricing-footer {
+    width: 920px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #938396;
+    margin-top: 70px;
+}
+/* END OF PRICING SECTION */
+
+/* START OF SUBSCRIPTION SECTION */
+#subscription {
+    background-color: #f4f4f4;
+    height: 135px;
+    padding: 0 140px;
+}
+.subscr-head {
+    width: 555px;
+    float: left;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 16px;
+    color: #635c73;
+    margin-top: 50px;
+}
+.subscr-form {
+    width: 542px;
+    float: left;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 45px;
+    margin-left: 60px;
+}
+.subscr-search {
+    width: 335px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    color: #d4d6d9;
+    padding-left: 25px;
+}
+.subscr-submit {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8d81ac;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    margin-left: 20px;
+}
+/* END OF SUBSCRIPTION SECTION */
+
+/* START OF LINKS SECTION */
+#links {
+    width: 1110px;
+    border-bottom: 1px solid #f4f4f4;
+    margin: auto;
+    overflow: auto;
+}
+.link {
+    width: 350px;
+    float: left;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+}
+.link>h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #d3d1da;
+    margin: 80px 0px 60px 0px;
+}
+.new-features>h3 {
+    font-size: 16px;
+    color: #323232;
+    margin-bottom: 20px;
+}
+.new-features>p {
+    font-size: 13px;
+    color: #848e97;
+    margin-bottom: 15px;
+}
+.extensions-blogs>h3 {
+    font-size: 16px;
+    color: #968bb2;
+    margin-bottom: 20px;
+}
+.extensions-blogs>p {
+    font-size: 13px;
+    color: #a1a8af;
+    margin-bottom: 15px;
+}
+.link-btn {
+    font-size: 14px;
+    color: #8d81ac;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    width: 160px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.mid-link {
+    margin: 0 30px;
+}
+/* END OF LINKS SECTION */
+
+/* START OF FOOTER SECTION */
+#footer {
+    width: 1110px;
+    margin: auto;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.footer-item {
+    width: 260px;
+    float: left;
+}
+.fork-logo{
+    overflow: auto;
+    margin-bottom: 15px;
+}
+.fork-icon {
+    float: left;
+}
+.fork-logo h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.footer-item h2 span {
+    color: #8d81ac;
+}
+.footer-item p {
+    font-size: 14px;
+    color: #aab0b6;
+}
+.footer-nav {
+    width: 160px;
+    float: left;
+    margin-left: 150px;
+}
+.footer-nav h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #323232;
+    margin-bottom: 25px;
+}
+.footer-nav ul {
+    list-style: none;
+    color: #9f95b8;
+}
+.footer-nav li {
+    margin-bottom: 10px;
+}
+.footer-address {
+    width: 225px;
+    float: left;
+    margin-left: 40px;
+}
+.footer-address h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3f3f3f;
+    margin-bottom: 10px;
+}
+.footer-address .work-hrs {
+    font-size: 12px;
+    color: #848e97;
+    margin-bottom: 35px;
+}
+.footer-address .city {
+    font-size: 16px;
+    color: #323232;
+    margin-bottom: 20px;
+}
+.footer-address .address {
+    font-size: 14px;
+    color: #848e97;
+}
+.footer-info {
+    width: 225px;
+    float: left;
+    margin-left: 40px;
+}
+.footer-info h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-info p {
+    font-size: 14px;
+}
